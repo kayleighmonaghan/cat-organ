@@ -7,64 +7,180 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="keys">
+    <div class="keys high">
+        <div data-key="q" class="key">
+            <kbd>Q</kbd>
+            <span class="sound">c</span>
+        </div>
+        <div data-key="w" class="key">
+            <kbd>W</kbd>
+            <span class="sound">c#</span>
+        </div>
+        <div data-key="e" class="key">
+            <kbd>E</kbd>
+            <span class="sound">d</span>
+        </div>
+        <div data-key="r" class="key">
+            <kbd>R</kbd>
+            <span class="sound">d#</span>
+        </div>
+        <div data-key="t" class="key">
+            <kbd>T</kbd>
+            <span class="sound">e</span>
+        </div>
+        <div data-key="y" class="key">
+            <kbd>Y</kbd>
+            <span class="sound">f</span>
+        </div>
+        <div data-key="u" class="key">
+            <kbd>U</kbd>
+            <span class="sound">f#</span>
+        </div>
+        <div data-key="i" class="key">
+            <kbd>I</kbd>
+            <span class="sound">g#</span>
+        </div>
+        <div data-key="o" class="key">
+            <kbd>O</kbd>
+            <span class="sound">a</span>
+        </div>
+        <div data-key="p" class="key">
+            <kbd>P</kbd>
+            <span class="sound">a#</span>
+        </div>
+        <div data-key="[" class="key">
+            <kbd>[</kbd>
+            <span class="sound">b</span>
+        </div>
+    </div>
+    <div class="keys mid">
         <div data-key="a" class="key">
             <kbd>A</kbd>
-            <span class="sound">a</span>
+            <span class="sound">c</span>
         </div>
         <div data-key="s" class="key">
             <kbd>S</kbd>
-            <span class="sound">a#</span>
+            <span class="sound">c#</span>
         </div>
         <div data-key="d" class="key">
             <kbd>D</kbd>
-            <span class="sound">b</span>
+            <span class="sound">d</span>
         </div>
         <div data-key="f" class="key">
             <kbd>F</kbd>
-            <span class="sound">c</span>
+            <span class="sound">d#</span>
         </div>
         <div data-key="g" class="key">
             <kbd>G</kbd>
-            <span class="sound">c#</span>
+            <span class="sound">e</span>
         </div>
         <div data-key="h" class="key">
             <kbd>H</kbd>
-            <span class="sound">d</span>
+            <span class="sound">f</span>
         </div>
         <div data-key="j" class="key">
             <kbd>J</kbd>
-            <span class="sound">d#</span>
+            <span class="sound">f#</span>
         </div>
         <div data-key="k" class="key">
             <kbd>K</kbd>
-            <span class="sound">e</span>
+            <span class="sound">g#</span>
         </div>
         <div data-key="l" class="key">
             <kbd>L</kbd>
-            <span class="sound">f</span>
+            <span class="sound">a</span>
         </div>
         <div data-key=";" class="key">
             <kbd>;</kbd>
-            <span class="sound">f#</span>
+            <span class="sound">a#</span>
         </div>
         <div data-key="'" class="key">
             <kbd>'</kbd>
-            <span class="sound">g#</span>
+            <span class="sound">b</span>
         </div>
     </div>
+    <div class="keys low">
+        <div data-key="`" class="key">
+            <kbd>`</kbd>
+            <span class="sound">c</span>
+        </div>
+        <div data-key="z" class="key">
+            <kbd>z</kbd>
+            <span class="sound">c#</span>
+        </div>
+        <div data-key="x" class="key">
+            <kbd>x</kbd>
+            <span class="sound">d</span>
+        </div>
+        <div data-key="c" class="key">
+            <kbd>c</kbd>
+            <span class="sound">d#</span>
+        </div>
+        <div data-key="v" class="key">
+            <kbd>v</kbd>
+            <span class="sound">e</span>
+        </div>
+        <div data-key="b" class="key">
+            <kbd>b</kbd>
+            <span class="sound">f</span>
+        </div>
+        <div data-key="n" class="key">
+            <kbd>n</kbd>
+            <span class="sound">f#</span>
+        </div>
+        <div data-key="m" class="key">
+            <kbd>m</kbd>
+            <span class="sound">g#</span>
+        </div>
+        <div data-key="," class="key">
+            <kbd>,</kbd>
+            <span class="sound">a</span>
+        </div>
+        <div data-key="." class="key">
+            <kbd>.</kbd>
+            <span class="sound">a#</span>
+        </div>
+        <div data-key="/" class="key">
+            <kbd>/</kbd>
+            <span class="sound">b</span>
+        </div>
+    </div>
+
+    <audio data-key="q" src="cat_sound_files/high/c.wav"></audio>
+    <audio data-key="w" src="cat_sound_files/high/c_sharp.wav"></audio>
+    <audio data-key="e" src="cat_sound_files/high/d.wav"></audio>
+    <audio data-key="r" src="cat_sound_files/high/d_sharp.wav"></audio>
+    <audio data-key="t" src="cat_sound_files/high/e.wav"></audio>
+    <audio data-key="y" src="cat_sound_files/high/f.wav"></audio>
+    <audio data-key="u" src="cat_sound_files/high/f_sharp.wav"></audio>
+    <audio data-key="i" src="cat_sound_files/high/g_sharp.wav"></audio>
+    <audio data-key="o" src="cat_sound_files/high/a.wav"></audio>
+    <audio data-key="p" src="cat_sound_files/high/a_sharp.wav"></audio>
+    <audio data-key="[" src="cat_sound_files/high/b.wav"></audio>
     
-    <audio data-key="a" src="cat_sound_files/a.wav"></audio>
-    <audio data-key="s" src="cat_sound_files/a_sharp.wav"></audio>
-    <audio data-key="d" src="cat_sound_files/b.wav"></audio>
-    <audio data-key="f" src="cat_sound_files/c.wav"></audio>
-    <audio data-key="g" src="cat_sound_files/c_sharp.wav"></audio>
-    <audio data-key="h" src="cat_sound_files/d.wav"></audio>
-    <audio data-key="j" src="cat_sound_files/d_sharp.wav"></audio>
-    <audio data-key="k" src="cat_sound_files/e.wav"></audio>
-    <audio data-key="l" src="cat_sound_files/f.wav"></audio>
-    <audio data-key=";" src="cat_sound_files/f_sharp.wav"></audio>
-    <audio data-key="'" src="cat_sound_files/g_sharp.wav"></audio>
+    <audio data-key="a" src="cat_sound_files/mid/c.wav"></audio>
+    <audio data-key="s" src="cat_sound_files/mid/c_sharp.wav"></audio>
+    <audio data-key="d" src="cat_sound_files/mid/d.wav"></audio>
+    <audio data-key="f" src="cat_sound_files/mid/d_sharp.wav"></audio>
+    <audio data-key="g" src="cat_sound_files/mid/e.wav"></audio>
+    <audio data-key="h" src="cat_sound_files/mid/f.wav"></audio>
+    <audio data-key="j" src="cat_sound_files/mid/f_sharp.wav"></audio>
+    <audio data-key="k" src="cat_sound_files/mid/g_sharp.wav"></audio>
+    <audio data-key="l" src="cat_sound_files/mid/a.wav"></audio>
+    <audio data-key=";" src="cat_sound_files/mid/a_sharp.wav"></audio>
+    <audio data-key="'" src="cat_sound_files/mid/b.wav"></audio>
+
+    <audio data-key="`" src="cat_sound_files/low/c.wav"></audio>
+    <audio data-key="z" src="cat_sound_files/low/c_sharp.wav"></audio>
+    <audio data-key="x" src="cat_sound_files/low/d.wav"></audio>
+    <audio data-key="c" src="cat_sound_files/low/d_sharp.wav"></audio>
+    <audio data-key="v" src="cat_sound_files/low/e.wav"></audio>
+    <audio data-key="b" src="cat_sound_files/low/f.wav"></audio>
+    <audio data-key="n" src="cat_sound_files/low/f_sharp.wav"></audio>
+    <audio data-key="m" src="cat_sound_files/low/g_sharp.wav"></audio>
+    <audio data-key="," src="cat_sound_files/low/a.wav"></audio>
+    <audio data-key="." src="cat_sound_files/low/a_sharp.wav"></audio>
+    <audio data-key="/" src="cat_sound_files/low/b.wav"></audio>
 
 <script src="script.js"></script>
 </body>

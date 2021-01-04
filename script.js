@@ -1,7 +1,6 @@
 function playSound(event) {
-    const audio = document.querySelector(`audio[data-key='${event.key}]`);
+    const audio = document.querySelector(`audio[data-key='${event.key}']`);
     const key = document.querySelector(`.key[data-key='${event.key}']`);
-
     if(!audio) return; // stops function from running if key with no audio element is pressed
     audio.currentTime = 0; // stops waiting for sound to end before next can begin
     audio.play();
