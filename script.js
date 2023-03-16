@@ -5,6 +5,7 @@ function playSound(event) {
     audio.currentTime = 0; // stops waiting for sound to end before next can begin
     audio.play();
     key.classList.add('playing'); 
+    setTimeout(() => {  key.classList.remove('playing'); }, 100);
 }
 
 function removeTransition(event) {
