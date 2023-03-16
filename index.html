@@ -7,146 +7,252 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="keys high">
-        <div data-key="q" class="key">
-            <kbd>Q</kbd>
-            <span class="sound">c#</span>
+    <div class="keyboard">
+        <!--start of top row of keyboard-->
+        <div class="keyboard__row keyboard__row--h1">
+            <div data-key="27" class="key--word">
+                <span>esc</span>
+            </div>
+            <div data-key="112" class="key--fn">
+                <span>F1</span>
+            </div>
+            <div data-key="113" class="key--fn">
+                <span>F2</span>
+            </div>
+            <div data-key="114" class="key--fn">
+                <span>F3</span>
+            </div>
+            <div data-key="115" class="key--fn">
+                <span>F4</span>
+            </div>
+            <div data-key="116" class="key--fn">
+                <span>F5</span>
+            </div>
+            <div data-key="117" class="key--fn">
+                <span>F6</span>
+            </div>
+            <div data-key="118" class="key--fn">
+                <span>F7</span>
+            </div>
+            <div data-key="119" class="key--fn">
+                <span>F8</span>
+            </div>
+            <div data-key="120" class="key--fn">
+                <span>F9</span>
+            </div>
+            <div data-key="121" class="key--fn">
+                <span>F10</span>
+            </div>
+            <div data-key="122" class="key--fn">
+                <span>F11</span>
+            </div>
+            <div data-key="123" class="key--fn">
+                <span>F12</span>
+            </div>
+            <div data-key="n/a" class="key--word">
+                <span>pwr</span>
+            </div>
         </div>
-        <div data-key="w" class="key">
-            <kbd>W</kbd>
-            <span class="sound">d</span>
+        <!--end of top keyboard row-->
+        <!-- start of second (numbers) keyboard row-->
+        <div class="keyboard__row">
+            <div class="key--double" data-key="192">
+                <div>~</div>
+                <div>`</div>
+            </div>
+            <div class="key--double" data-key="49">
+                <div>!</div>
+                <div>1</div>
+            </div>
+            <div class="key--double" data-key="50">
+                <div>@</div>
+                <div>2</div>
+            </div>
+            <div class="key--double" data-key="51">
+                <div>#</div>
+                <div>3</div>
+            </div>
+            <div class="key--double" data-key="52">
+                <div>$</div>
+                <div>4</div>
+            </div>
+            <div class="key--double" data-key="53">
+                <div>%</div>
+                <div>5</div>
+            </div>
+            <div class="key--double" data-key="54">
+                <div>^</div>
+                <div>6</div>
+            </div>
+            <div class="key--double" data-key="55">
+                <div>&</div>
+                <div>7</div>
+            </div>
+            <div class="key--double" data-key="56">
+                <div>*</div>
+                <div>8</div>
+            </div>
+            <div class="key--double" data-key="57">
+                <div>(</div>
+                <div>9</div>
+            </div>
+            <div class="key--double" data-key="48">
+                <div>)</div>
+                <div>0</div>
+            </div>
+            <div class="key--double" data-key="189">
+                <div>_</div>
+                <div>-</div>
+            </div>
+            <div class="key--double" data-key="187">
+                <div>+</div>
+                <div>=</div>
+            </div>
+            <div class="key--bottom-right key--word key--w4" data-key="8">
+                <span>delete</span>
+            </div>
         </div>
-        <div data-key="e" class="key">
-            <kbd>E</kbd>
-            <span class="sound">e</span>
+        <!--end of second (numbers) keyboard row-->
+        <div class="keys high keyboard__row">
+            <div data-key="q" class="key key--word">
+                <kbd>Q</kbd>
+                <span class="sound">c#</span>
+            </div>
+            <div data-key="w" class="key key--word">
+                <kbd>W</kbd>
+                <span class="sound">d</span>
+            </div>
+            <div data-key="e" class="key key--word">
+                <kbd>E</kbd>
+                <span class="sound">e</span>
+            </div>
+            <div data-key="r" class="key key--word">
+                <kbd>R</kbd>
+                <span class="sound">f</span>
+            </div>
+            <div data-key="t" class="key key--word">
+                <kbd>T</kbd>
+                <span class="sound">f#</span>
+            </div>
+            <div data-key="y" class="key key--word">
+                <kbd>Y</kbd>
+                <span class="sound">g</span>
+            </div>
+            <div data-key="u" class="key key--word">
+                <kbd>U</kbd>
+                <span class="sound">g#</span>
+            </div>
+            <div data-key="i" class="key key--word">
+                <kbd>I</kbd>
+                <span class="sound">a</span>
+            </div>
+            <div data-key="o" class="key key--word">
+                <kbd>O</kbd>
+                <span class="sound">a#</span>
+            </div>
+            <div data-key="p" class="key key--word">
+                <kbd>P</kbd>
+                <span class="sound">b</span>
+            </div>
         </div>
-        <div data-key="r" class="key">
-            <kbd>R</kbd>
-            <span class="sound">f</span>
+        <div class="key key--words mid keyboard__row">
+            <div data-key="a" class="key key--word">
+                <kbd>A</kbd>
+                <span class="sound">d</span>
+            </div>
+            <div data-key="s" class="key key--word">
+                <kbd>S</kbd>
+                <span class="sound">e</span>
+            </div>
+            <div data-key="d" class="key key--word">
+                <kbd>D</kbd>
+                <span class="sound">f</span>
+            </div>
+            <div data-key="f" class="key key--word">
+                <kbd>F</kbd>
+                <span class="sound">f#</span>
+            </div>
+            <div data-key="g" class="key key--word">
+                <kbd>G</kbd>
+                <span class="sound">g</span>
+            </div>
+            <div data-key="h" class="key key--word">
+                <kbd>H</kbd>
+                <span class="sound">g#</span>
+            </div>
+            <div data-key="j" class="key key--word">
+                <kbd>J</kbd>
+                <span class="sound">a</span>
+            </div>
+            <div data-key="k" class="key key--word">
+                <kbd>K</kbd>
+                <span class="sound">a#</span>
+            </div>
+            <div data-key="l" class="key key--word">
+                <kbd>L</kbd>
+                <span class="sound">b</span>
+            </div>
         </div>
-        <div data-key="t" class="key">
-            <kbd>T</kbd>
-            <span class="sound">f#</span>
+        <div class="key key--words low keyboard__row">
+            <div data-key="z" class="key key--word">
+                <kbd>z</kbd>
+                <span class="sound">e</span>
+            </div>
+            <div data-key="x" class="key key--word">
+                <kbd>x</kbd>
+                <span class="sound">f</span>
+            </div>
+            <div data-key="c" class="key key--word">
+                <kbd>c</kbd>
+                <span class="sound">f#</span>
+            </div>
+            <div data-key="v" class="key key--word">
+                <kbd>v</kbd>
+                <span class="sound">g</span>
+            </div>
+            <div data-key="b" class="key key--word">
+                <kbd>b</kbd>
+                <span class="sound">g#</span>
+            </div>
+            <div data-key="n" class="key key--word">
+                <kbd>n</kbd>
+                <span class="sound">a</span>
+            </div>
+            <div data-key="m" class="key key--word">
+                <kbd>m</kbd>
+                <span class="sound">a#</span>
+            </div>
         </div>
-        <div data-key="y" class="key">
-            <kbd>Y</kbd>
-            <span class="sound">g</span>
-        </div>
-        <div data-key="u" class="key">
-            <kbd>U</kbd>
-            <span class="sound">g#</span>
-        </div>
-        <div data-key="i" class="key">
-            <kbd>I</kbd>
-            <span class="sound">a</span>
-        </div>
-        <div data-key="o" class="key">
-            <kbd>O</kbd>
-            <span class="sound">a#</span>
-        </div>
-        <div data-key="p" class="key">
-            <kbd>P</kbd>
-            <span class="sound">b</span>
-        </div>
-    </div>
-    <div class="keys mid">
-        <div data-key="a" class="key">
-            <kbd>A</kbd>
-            <span class="sound">d</span>
-        </div>
-        <div data-key="s" class="key">
-            <kbd>S</kbd>
-            <span class="sound">e</span>
-        </div>
-        <div data-key="d" class="key">
-            <kbd>D</kbd>
-            <span class="sound">f</span>
-        </div>
-        <div data-key="f" class="key">
-            <kbd>F</kbd>
-            <span class="sound">f#</span>
-        </div>
-        <div data-key="g" class="key">
-            <kbd>G</kbd>
-            <span class="sound">g</span>
-        </div>
-        <div data-key="h" class="key">
-            <kbd>H</kbd>
-            <span class="sound">g#</span>
-        </div>
-        <div data-key="j" class="key">
-            <kbd>J</kbd>
-            <span class="sound">a</span>
-        </div>
-        <div data-key="k" class="key">
-            <kbd>K</kbd>
-            <span class="sound">a#</span>
-        </div>
-        <div data-key="l" class="key">
-            <kbd>L</kbd>
-            <span class="sound">b</span>
-        </div>
-    </div>
-    <div class="keys low">
-        <div data-key="z" class="key">
-            <kbd>z</kbd>
-            <span class="sound">e</span>
-        </div>
-        <div data-key="x" class="key">
-            <kbd>x</kbd>
-            <span class="sound">f</span>
-        </div>
-        <div data-key="c" class="key">
-            <kbd>c</kbd>
-            <span class="sound">f#</span>
-        </div>
-        <div data-key="v" class="key">
-            <kbd>v</kbd>
-            <span class="sound">g</span>
-        </div>
-        <div data-key="b" class="key">
-            <kbd>b</kbd>
-            <span class="sound">g#</span>
-        </div>
-        <div data-key="n" class="key">
-            <kbd>n</kbd>
-            <span class="sound">a</span>
-        </div>
-        <div data-key="m" class="key">
-            <kbd>m</kbd>
-            <span class="sound">a#</span>
-        </div>
-    </div>
 
-    <audio data-key="q" src="cat_sound_files/high/c_sharp.wav"></audio>
-    <audio data-key="w" src="cat_sound_files/high/d.wav"></audio>
-    <audio data-key="e" src="cat_sound_files/high/e.wav"></audio>
-    <audio data-key="r" src="cat_sound_files/high/f.wav"></audio>
-    <audio data-key="t" src="cat_sound_files/high/f_sharp.wav"></audio>
-    <audio data-key="y" src="cat_sound_files/high/g.wav"></audio>
-    <audio data-key="u" src="cat_sound_files/high/g_sharp.wav"></audio>
-    <audio data-key="i" src="cat_sound_files/high/a.wav"></audio>
-    <audio data-key="o" src="cat_sound_files/high/a_sharp.wav"></audio>
-    <audio data-key="p" src="cat_sound_files/high/b.wav"></audio>
-    
-    <audio data-key="a" src="cat_sound_files/mid/d.wav"></audio>
-    <audio data-key="s" src="cat_sound_files/mid/e.wav"></audio>
-    <audio data-key="d" src="cat_sound_files/mid/f.wav"></audio>
-    <audio data-key="f" src="cat_sound_files/mid/f_sharp.wav"></audio>
-    <audio data-key="g" src="cat_sound_files/mid/g.wav"></audio>
-    <audio data-key="h" src="cat_sound_files/mid/g_sharp.wav"></audio>
-    <audio data-key="j" src="cat_sound_files/mid/a.wav"></audio>
-    <audio data-key="k" src="cat_sound_files/mid/a_sharp.wav"></audio>
-    <audio data-key="l" src="cat_sound_files/mid/b.wav"></audio>
+        <audio data-key="q" src="cat_sound_files/high/c_sharp.wav"></audio>
+        <audio data-key="w" src="cat_sound_files/high/d.wav"></audio>
+        <audio data-key="e" src="cat_sound_files/high/e.wav"></audio>
+        <audio data-key="r" src="cat_sound_files/high/f.wav"></audio>
+        <audio data-key="t" src="cat_sound_files/high/f_sharp.wav"></audio>
+        <audio data-key="y" src="cat_sound_files/high/g.wav"></audio>
+        <audio data-key="u" src="cat_sound_files/high/g_sharp.wav"></audio>
+        <audio data-key="i" src="cat_sound_files/high/a.wav"></audio>
+        <audio data-key="o" src="cat_sound_files/high/a_sharp.wav"></audio>
+        <audio data-key="p" src="cat_sound_files/high/b.wav"></audio>
+        
+        <audio data-key="a" src="cat_sound_files/mid/d.wav"></audio>
+        <audio data-key="s" src="cat_sound_files/mid/e.wav"></audio>
+        <audio data-key="d" src="cat_sound_files/mid/f.wav"></audio>
+        <audio data-key="f" src="cat_sound_files/mid/f_sharp.wav"></audio>
+        <audio data-key="g" src="cat_sound_files/mid/g.wav"></audio>
+        <audio data-key="h" src="cat_sound_files/mid/g_sharp.wav"></audio>
+        <audio data-key="j" src="cat_sound_files/mid/a.wav"></audio>
+        <audio data-key="k" src="cat_sound_files/mid/a_sharp.wav"></audio>
+        <audio data-key="l" src="cat_sound_files/mid/b.wav"></audio>
 
-    <audio data-key="z" src="cat_sound_files/low/e.wav"></audio>
-    <audio data-key="x" src="cat_sound_files/low/f.wav"></audio>
-    <audio data-key="c" src="cat_sound_files/low/f_sharp.wav"></audio>
-    <audio data-key="v" src="cat_sound_files/low/g.wav"></audio>
-    <audio data-key="b" src="cat_sound_files/low/g_sharp.wav"></audio>
-    <audio data-key="n" src="cat_sound_files/low/a.wav"></audio>
-    <audio data-key="m" src="cat_sound_files/low/a_sharp.wav"></audio>
-
+        <audio data-key="z" src="cat_sound_files/low/e.wav"></audio>
+        <audio data-key="x" src="cat_sound_files/low/f.wav"></audio>
+        <audio data-key="c" src="cat_sound_files/low/f_sharp.wav"></audio>
+        <audio data-key="v" src="cat_sound_files/low/g.wav"></audio>
+        <audio data-key="b" src="cat_sound_files/low/g_sharp.wav"></audio>
+        <audio data-key="n" src="cat_sound_files/low/a.wav"></audio>
+        <audio data-key="m" src="cat_sound_files/low/a_sharp.wav"></audio>
+    </div>
 <script src="script.js"></script>
 </body>
 </html>
