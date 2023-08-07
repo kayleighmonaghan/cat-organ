@@ -1,6 +1,14 @@
-html,
 body {
-  background-image: url(images/nyan.gif);
+  background-image: url(images/trippy.gif);
+  background-size: cover;
+}
+.content {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 60em;
+  padding-top: 5em;
+  padding-bottom: 10em;
+  
 }
 
 .key {
@@ -19,6 +27,8 @@ h1 {
   text-align: center;
   font-size: 14px;
   font-family: sans-serif;
+  max-width: 100em;
+  min-width: 60em;
 }
 
 .keyboard__row {
